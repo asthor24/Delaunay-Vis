@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DelaunayTriangulator/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DelaunayTriangulator from './components/DelaunayTriangulator.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    DelaunayTriangulator
+}
 }
 </script>
 
@@ -21,6 +20,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10x;
 }
 </style>
