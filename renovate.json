@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all minor and patch dependencies",
+      "groupSlug": "all-minor-and-patch",
+      "matchPackageNames": ["*"]
+    },
+    {
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": ">=9",
+      "enabled": false
+    }
+  ]
+}
